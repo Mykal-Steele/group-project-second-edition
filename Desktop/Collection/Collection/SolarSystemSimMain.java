@@ -17,6 +17,7 @@ public class SolarSystemSimMain {
         celestialBodies.putIfAbsent(className, new ArrayList<>());
         celestialBodies.get(className).add(body);
     }
+    
 
     public static void showMenu() {
         while (true) {
